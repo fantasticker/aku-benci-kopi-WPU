@@ -37,7 +37,7 @@ const shoppingCart = document.querySelector(".shopping-cart");
 
 document.querySelector("#shopping-cart-button").onclick = (e) => {
     shoppingCart.classList.toggle("active");
-    e.preventDefault;
+    e.preventDefault();
 };
 
 //Klik di luar elemen
